@@ -21,7 +21,7 @@ export const GetStarted = () => {
         >
           Lets find the perfect Solution for you!
         </p>
-        <div className="flex justify-center">
+        <div className="mt-10 grid sm:grid-cols-1 lg:grid-cols-3 gap-5">
           {/* Plan 1 */}
           <div
             className="flex-grow bg-slate-900 rounded-xl p-6 flex flex-col items-center mr-4"
@@ -116,14 +116,11 @@ export const GetStarted = () => {
           </div>
           {/* Plan 2 */}
           <div
-            className="flex-grow bg-slate-900 rounded-xl p-6 flex flex-col items-center mr-4 lg:w-2/5 border"
-            style={{ maxWidth: "400px" }}
+            className="flex-grow bg-slate-900 rounded-xl p-6 flex flex-col items-center mr-4"
+            style={{ maxWidth: "300px" }}
             data-aos="fade-down"
             data-aos-delay="600"
           >
-            <div className="absolute top-0 left-1/2 transform -translate-x-1/2 border-gradient-to-r from-red-400 to-yellow-500 text-white font-bold px-3 py-1 rounded-lg text-xs uppercase">
-              Most Popular
-            </div>
             <h2 className="text-2xl font-semibold mb-2">Serverside Backend</h2>
             <p className="text-gray-500 mb-4">
               Build a comprehensive Backend with all the features you need
@@ -202,12 +199,16 @@ export const GetStarted = () => {
             </div>
           </div>
           {/* Plan 3 */}
+
           <div
-            className="flex-grow bg-slate-900 rounded-xl p-6 flex flex-col items-center"
+            className="flex-grow bg-slate-900 rounded-xl p-6 flex flex-col items-center border"
             style={{ maxWidth: "300px" }}
             data-aos="fade-down"
             data-aos-delay="800"
           >
+            <div className="absolute top-0 left-1/2 transform -translate-x-1/2 border-gradient-to-r from-red-400 to-yellow-500 text-white font-bold px-3 py-1 rounded-lg text-xs uppercase">
+              Most Popular
+            </div>
             <h2 className="text-2xl font-semibold mb-2">Full-stack Web App</h2>
             <p className="text-gray-500 mb-4">
               An incredible web application, Frontend and backend combined.
