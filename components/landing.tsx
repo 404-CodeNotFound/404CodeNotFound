@@ -7,6 +7,7 @@ import { CreatedWebsites } from "./created_websites";
 import { Channels } from "./channels";
 import { Calendly } from "./calendly";
 import { Footer } from "./footer";
+import { GetStarted } from "./get_started";
 
 export const LandingPage = () => {
   // Data AOS Animations
@@ -23,15 +24,13 @@ export const LandingPage = () => {
       <div className="pt-32 pb-16 md:pt-52 md:pb-32 relative max-w-5xl min-h-screen px-4 mx-auto sm:px-6 space-y-80">
         {/* Hero */}
         <Hero />
-
         {/* Created Websites*/}
         <CreatedWebsites />
-
         {/* Peoples worked with*/}
         <Channels />
-
         {/* Calendly Booking Page*/}
-        <Calendly />
+        {/* <Calendly /> */}
+        <GetStarted />
       </div>
 
       <div>
