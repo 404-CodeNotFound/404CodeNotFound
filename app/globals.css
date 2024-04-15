@@ -5,6 +5,7 @@
 body {
   background-color: #121212;
   color: white;
+  --radius: 5px;
 }
 html {
   scroll-behavior: smooth;

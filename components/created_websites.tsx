@@ -20,11 +20,13 @@ export const CreatedWebsites = () => {
     <div className="flex justify-center ">
       <div className="max-w-5xl">
         <div className="text-center">
-          <h1 className="pb-4 font-bold tracking-tight text-5xl lg:text-6xl ">
-            Websites we've created
-          </h1>
-          <div className="flex items-center justify-center">
-            <Separator className="mt-3 bg-slate-100/20 h-0.5 w-40" />
+          <div data-aos="fade-down">
+            <h1 className="pb-4 font-bold tracking-tight text-5xl lg:text-6xl ">
+              Websites we've created
+            </h1>
+            <div className="flex items-center justify-center">
+              <Separator className="mt-3 bg-slate-100/20 h-0.5 w-40" />
+            </div>
           </div>
 
           <div className="flex justify-center">
@@ -32,18 +34,26 @@ export const CreatedWebsites = () => {
               <img
                 src="img/website.png"
                 className="ring-white ring-2 rounded-xl"
+                data-aos="fade-down"
+                data-aos-delay="200"
               />
               <img
                 src="img/website.png"
                 className="ring-white ring-2 rounded-xl"
+                data-aos="fade-down"
+                data-aos-delay="300"
               />
               <img
                 src="img/website.png"
                 className="ring-white ring-2 rounded-xl"
+                data-aos="fade-down"
+                data-aos-delay="200"
               />
               <img
                 src="img/website.png"
                 className="ring-white ring-2 rounded-xl"
+                data-aos="fade-down"
+                data-aos-delay="300"
               />
             </div>
           </div>
