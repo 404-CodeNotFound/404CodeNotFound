@@ -97,7 +97,7 @@ export const FeedbackCarousel = ({
       >
         {feedbacks.map((feedback, idx) => (
           <li
-            className="feedback-card w-[350px] max-w-full relative rounded-2xl border-b-0 flex-shrink-0 border border-gray-800 px-8 py-6 md:w-[450px] bg-slate-900"
+            className="feedback-card w-[350px] max-w-full relative rounded-2xl border-b-0 flex-shrink-0 border border-gray-800 px-8 py-6 md:w-[450px] bg-gray-900"
             key={idx}
           >
             <blockquote>
