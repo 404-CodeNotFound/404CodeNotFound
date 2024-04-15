@@ -8,6 +8,7 @@ import { Channels } from "./channels";
 import { Calendly } from "./calendly";
 import { Footer } from "./footer";
 import { GetStarted } from "./get_started";
+import { WhyUs } from "./why-us";
 
 export const LandingPage = () => {
   // Data AOS Animations
@@ -26,6 +27,8 @@ export const LandingPage = () => {
         <Hero />
         {/* Created Websites*/}
         <CreatedWebsites />
+
+        <WhyUs />
         {/* Peoples worked with*/}
         <Channels />
         {/* Calendly Booking Page*/}
