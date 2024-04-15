@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Separator } from "./ui/separator";
 import YouTube from "react-youtube";
 import { Meteors } from "./global/meteor";
-import { BookCheck, Palette, Rocket } from "lucide-react";
+import { BookCheck, HeartHandshake, Palette, Rocket } from "lucide-react";
 
 export const WhyUs = () => {
   const videoOptions = {
