@@ -3,6 +3,7 @@ import { Separator } from "./ui/separator";
 import YouTube from "react-youtube";
 import { Meteors } from "./global/meteor";
 import { HeartHandshake, Palette, Rocket } from "lucide-react";
+import { InfiniteMovingCardsDemo } from "./ratings";
 
 export const WhyUs = () => {
   const videoOptions = {

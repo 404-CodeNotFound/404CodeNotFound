@@ -9,6 +9,7 @@ import { Calendly } from "./calendly";
 import { Footer } from "./footer";
 import { GetStarted } from "./get_started";
 import { WhyUs } from "./why-us";
+import { InfiniteMovingCardsDemo } from "./ratings";
 
 export const LandingPage = () => {
   // Data AOS Animations
@@ -22,11 +23,13 @@ export const LandingPage = () => {
 
   return (
     <div>
-      <div className="pt-32 pb-16 md:pt-52 md:pb-32 relative  min-h-screen px-4 mx-auto sm:px-6 space-y-80">
-        {/* Hero */}
-        <Hero />
-        {/* Created Websites*/}
-        <CreatedWebsites />
+      <div className="pt-32 pb-16 md:pt-52 md:pb-32 relative  min-h-screen px-4 mx-auto sm:px-6 space-y-40">
+        <div className="space-y-80">
+          {/* Hero */}
+          <Hero />
+          {/* Created Websites*/}
+          <CreatedWebsites />
+        </div>
 
         <WhyUs />
         {/* Peoples worked with*/}
