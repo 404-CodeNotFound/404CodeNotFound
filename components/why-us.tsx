@@ -22,9 +22,9 @@ export const WhyUs = () => {
   return (
     <div className="flex justify-center ">
       <div className="max-w-5xl">
-        <div className="text-center">
+        <div className="">
           <div data-aos="fade-down">
-            <h1 className="pb-4 font-bold tracking-tight text-5xl lg:text-6xl ">
+            <h1 className="pb-4 font-bold tracking-tight text-5xl lg:text-6xl text-center">
               Why choose us?
             </h1>
             <div className="flex items-center justify-center">

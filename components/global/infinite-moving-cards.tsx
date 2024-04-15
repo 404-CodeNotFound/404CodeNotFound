@@ -97,32 +97,24 @@ export const FeedbackCarousel = ({
       >
         {feedbacks.map((feedback, idx) => (
           <li
-            className="feedback-card w-[350px] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-700 px-8 py-6 md:w-[450px]"
-            style={{
-              background:
-                "linear-gradient(180deg, var(--slate-800), var(--slate-900))",
-            }}
+            className="feedback-card w-[350px] max-w-full relative rounded-2xl border-b-0 flex-shrink-0 border border-gray-800 px-8 py-6 md:w-[450px] bg-slate-900"
             key={idx}
           >
             <blockquote>
-              <div
-                aria-hidden="true"
-                className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
-              ></div>
-              <span className="relative z-20 text-sm leading-[1.6] text-gray-100 font-normal">
-                {feedback.comment}
-              </span>
-              <div className="relative z-20 mt-6 flex flex-row items-center">
-                <span className="flex flex-col gap-1">
-                  <span className="text-sm leading-[1.6] text-gray-400 font-normal">
+              <div className="relative z-20 flex flex-row items-center mt-0">
+                <span className="flex flex-col">
+                  <span className=" text-gray-400 font-normal text-base">
                     {feedback.customerName}
                   </span>
-                  <span className="text-sm leading-[1.6] text-gray-400 font-normal">
+                  {/* <span className="text-sm text-gray-400 font-normal">
                     {feedback.customerTitle}
-                  </span>
+                  </span> */}
                   <div className="flex">{renderStars(feedback.rating)}</div>
                 </span>
               </div>
+              <span className="relative z-20 text-sm leading-[1.6] text-gray-100 font-normal text-right">
+                {feedback.comment}
+              </span>
             </blockquote>
           </li>
         ))}

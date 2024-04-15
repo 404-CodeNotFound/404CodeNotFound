@@ -6,7 +6,7 @@ import Pricing from "./pricing";
 
 export const GetStarted = () => {
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center text-center">
       <div className=" pt-20 max-w-5xl" id="get_started">
         <Particles className="absolute inset-0 -z-10" />
         <div className="text-center px-8">

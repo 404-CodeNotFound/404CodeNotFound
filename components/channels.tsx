@@ -41,8 +41,8 @@ export const Channels = () => {
     // You can add more responsive keys (lg, xl) as needed
   };
   return (
-    <div className="text-center">
-      <h1 className="pb-4 font-bold tracking-tight text-5xl lg:text-6xl ">
+    <div className="">
+      <h1 className="pb-4 font-bold tracking-tight text-5xl lg:text-6xl text-center">
         People we've Worked With
       </h1>
       <div className="flex items-center justify-center">

@@ -6,16 +6,22 @@ import { FeedbackCarousel } from "./global/infinite-moving-cards";
 export function InfiniteMovingCardsDemo() {
   return (
     <div className="h-[20rem] rounded-md flex flex-col antialiased justify-center relative overflow-hidden">
-      <FeedbackCarousel feedbacks={feedbacks} direction="right" speed="slow" />
+      <FeedbackCarousel
+        feedbacks={feedbacks}
+        direction="right"
+        speed="slow"
+        pauseOnHover={false}
+      />
     </div>
   );
 }
 
 const feedbacks = [
   {
-    comment: "Excellent service! The product exceeded my expectations.",
+    comment:
+      "Absolutely thrilled with my experience! The team delivered exactly what I was looking for and more.",
     rating: 5,
-    customerName: "John Doe",
+    customerName: "Timothee Bels",
     customerTitle: "CEO, ABC Company",
   },
   {
@@ -27,23 +33,9 @@ const feedbacks = [
   },
   {
     comment:
-      "The product is good, but I encountered some issues during setup. Customer support was helpful in resolving them.",
-    rating: 3,
+      "Exceptional service!The team went above and beyond to deliver outstanding results. Highly recommend!",
+    rating: 5,
     customerName: "Bob Johnson",
     customerTitle: "IT Specialist, DEF Corporation",
-  },
-  {
-    comment:
-      "Disappointed with the product. It didn't meet my expectations, and customer support was unresponsive.",
-    rating: 2,
-    customerName: "Emily Brown",
-    customerTitle: "Freelancer",
-  },
-  {
-    comment:
-      "Terrible experience! The product arrived damaged, and it took forever to get a refund.",
-    rating: 1,
-    customerName: "Michael Wilson",
-    customerTitle: "Small Business Owner",
   },
 ];
